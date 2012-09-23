@@ -10,7 +10,7 @@ div#header {
     height: 1.3em;
     text-align: right;
     color: #eee;
-    font-size: .8em;
+    font-size: 0.5em;
     vertical-align: top;
 }
 div#footer {top: auto; bottom: 0; height: 2.5em;}
