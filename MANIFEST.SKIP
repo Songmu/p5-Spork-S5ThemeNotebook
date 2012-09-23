@@ -18,4 +18,8 @@
 ^[^/]+\.pl$
 ^\.shipit$
 ^.git
+^.gitignore
 TODO
+^tmp/
+^view/
+^src/
