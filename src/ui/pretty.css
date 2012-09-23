@@ -2,7 +2,9 @@
    Note that the 'body' font size may have to be changed if the resolution is
     different than expected. */
 
-body {background: #fff; color: #000; font-size: 2em; font-family: Verdana, Arial, sans-serif;}
+body {color: #000; font-size: 2em; font-family: Verdana, Arial, sans-serif;
+    background: url(looseleaf.png) repeat-y #fff;
+}
 
 a {
 	color: #c30;
@@ -44,7 +46,7 @@ pre code span {
 	font-weight: normal;
 	font-size: 0.98em;
 }
-ul {margin-left: 85px; margin-right: 3%; list-style: disc; padding: 0;}
+ul {margin-left: 50px; margin-right: 3%; list-style: disc; padding: 0;}
 li {margin-top: 5px; margin-right: 0;}
 ul ul {line-height: 1;}
 ul ul li {margin: .2em; font-size: 85%; list-style: square;}
@@ -63,12 +65,28 @@ div#footer {font-size: 0.5em; font-weight: bold; padding: 1em 0; color: #666; ba
 #footer h2 {margin-top: 0.5em;}
 
 div.long {font-size: 0.75em;}
+
+
 .slide h1 {position: absolute; top: 0.8em; left: 0; z-index: 1;
   margin-left: 85px; padding: 0; white-space: nowrap;
   font-weight: bold; font-size: 150%; line-height: 1;
   color: #f3f3f3;}
+.slide h2 {
+    background: url(pen.png) right bottom no-repeat;
+    height: 30px;
+    padding-right: 54px;
+    padding-top: 20px;
+    padding-bottom: .2em;
+    border-bottom: dotted 4px #999;
+}
 .slide h3 {font-size: 130%;}
 h1 abbr {font-variant: small-caps;}
+
+div.slide > ul > li {
+    background: url(pin.png) left top no-repeat;
+    padding-left: 32px;
+    list-style-type: none;
+}
 
 div#controls {position: absolute; z-index: 1; left: 75%; top: 0;
   width: 25%; height: 100%;
@@ -106,6 +124,10 @@ div#controls div:hover select {visibility: visible;}
    font: bold 2.2em Arial, Verdana, sans-serif; white-space: normal;
    color: #000;
    text-transform: none; }
+#slide0 h2 {
+    background: none;
+    border: none;
+}
 #slide0 h3 {margin-top: 0.3em; font-size: 1.2em;}
 #slide0 h4 {margin:0; font-size: 0.9em;}
 
