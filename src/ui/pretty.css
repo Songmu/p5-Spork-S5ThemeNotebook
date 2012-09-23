@@ -54,7 +54,7 @@ pre code span {
 	font-size: 0.98em;
 }
 ul {margin-left: 50px; margin-right: 3%; list-style: disc; padding: 0;}
-li {margin-top: 5px; margin-right: 0;}
+li {margin-top: 8px; margin-right: 0;}
 ul ul {line-height: 1;}
 ul ul li {margin: .2em; font-size: 85%; list-style: square;}
 p, li {
@@ -71,11 +71,12 @@ div#footer {color: #AAB; font-size: 0.5em; font-weight: bold; padding: 1em 0; co
 
 div.long {font-size: 0.75em;}
 
-
-.slide h1 {position: absolute; top: 0.8em; left: 0; z-index: 1;
-  margin-left: 85px; padding: 0; white-space: nowrap;
-  font-weight: bold; font-size: 150%; line-height: 1;
-  color: #f3f3f3;}
+.slide h1 {
+  position: static;
+  margin: 1.1em 0 1.33em; padding: 5px 0 5px 20px;
+  margin-left: 50px; padding: 0; white-space: normal;
+  font: bold 2em Arial, Verdana, sans-serif; white-space: normal;
+}
 .slide h2 {
     background: url(pen.png) right bottom no-repeat;
     height: 30px;
@@ -155,7 +156,7 @@ div.image {
 }
 
 p {
-	margin-left: 85px;
+	margin-left: 50px;
 }
 
 div.image p, #slide0 p {
