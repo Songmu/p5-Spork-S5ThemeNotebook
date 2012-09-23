@@ -4,7 +4,15 @@
     to help you with the rearrangement process. */
 
 div#header, div#footer, div.slide {width: 100%; top: 0; left: 0;}
-div#header {top: 0; height: 1em;}
+div#header {
+    background: #66f;
+    top: 0;
+    height: 1.3em;
+    text-align: right;
+    color: #eee;
+    font-size: .8em;
+    vertical-align: top;
+}
 div#footer {top: auto; bottom: 0; height: 2.5em;}
 div.slide {top: 0; width: 92%; padding: 1em 4% 4%;}
 div#controls {left: 50%; top: 0; width: 50%; height: 100%;}
@@ -17,7 +25,6 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
 html>body #currentSlide {position: fixed;}
 
 /*
-div#header {background: #FCC;}
 div#footer {background: #CCF;}
 div#controls {background: #BBD;}
 div#currentSlide {background: #FFC;}
