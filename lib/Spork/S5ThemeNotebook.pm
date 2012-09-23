@@ -6,6 +6,19 @@ const class_id => 'theme';
 
 our $VERSION = '0.01';
 
+{
+    package
+        Spork::Slides;
+    no warnings 'redefine';
+
+    sub get_image_html {
+        my $image_url = shift->image_url
+            or return '';
+
+        qq{<img src="$image_url" />};
+    }
+}
+
 __DATA__
 
 =head1 NAME
@@ -376,15 +389,17 @@ div.long {font-size: 0.75em;}
   position: static;
   margin: 1.1em 0 1.33em; padding: 5px 0 5px 20px;
   margin-left: 50px; padding: 0; white-space: normal;
-  font: bold 2em Arial, Verdana, sans-serif; white-space: normal;
+  font: 2em Arial, Verdana, sans-serif; white-space: normal;
 }
 .slide h2 {
     background: url(pen.png) right bottom no-repeat;
     height: 30px;
+    margin-bottom: .1em;
     padding-right: 54px;
     padding-top: 20px;
-    padding-bottom: .2em;
+    padding-bottom: .3em;
     border-bottom: dotted 4px #999;
+    font-weight: bold;
 }
 .slide h3 {font-size: 130%;}
 h1 abbr {font-variant: small-caps;}
