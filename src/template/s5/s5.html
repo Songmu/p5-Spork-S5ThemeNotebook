@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="ui/slides.css" type="text/css" media="projection" id="slideProj" />
 <link rel="stylesheet" href="ui/opera.css" type="text/css" media="projection" id="operaFix" />
 <link rel="stylesheet" href="ui/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/prettify.css" type="text/css" media="screen, projection" />
 [% FOR css_file = hub.css.files -%]
   <link rel="stylesheet" type="text/css" href="[% css_file %]" />
 [% END -%]
@@ -37,6 +38,9 @@
 [% FOREACH s = slides %]
 [% s %]
 [% END %]
+<script type="text/javascript" src="ui/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="ui/prettify.js"></script>
+<script type="text/javascript" src="ui/init.js"></script>
 </body>
 </html>
 <!-- END s5 -->
