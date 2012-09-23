@@ -56,9 +56,9 @@ img.leader {display: block; margin: 0 auto;}
 
 div#header, div#footer {color: #AAB;
   font-family: Verdana, Helvetica, sans-serif;}
-div#header {background: #cc3300;
+div#header {background: #0000FF;
   line-height: 1px;}
-div#footer {font-size: 0.5em; font-weight: bold; padding: 1em 0; color: #666;}
+div#footer {font-size: 0.5em; font-weight: bold; padding: 1em 0; color: #666; background-color: #CCCCFF;}
 #footer h1, #footer h2 {display: block; padding: 0 1em;}
 #footer h2 {margin-top: 0.5em;}
 
@@ -87,13 +87,12 @@ div#controls div:hover select {visibility: visible;}
 	display: block;
 	width: 35px; height: 35px;
 	float: left;
-	background: url(button.gif) no-repeat 0 0;
 }
 #toggle {
-	background-image: url(toggle.gif);
+	/* background-image: url(toggle.gif); */
 }
 #toggle span {
-	display: none;
+	/* display: none; */
 }
 #next {
 	text-align: left;
@@ -105,8 +104,8 @@ div#controls div:hover select {visibility: visible;}
 #slide0 {padding-top: 3.5em; font-size: 90%;}
 #slide0 h1 {position: static; margin: 1em 0 1.33em; padding: 5px 0 5px 20px;
    font: bold 2.2em Arial, Verdana, sans-serif; white-space: normal;
-   color: #000; background: transparent url(slide0h1.gif) no-repeat left bottom;
-	text-transform: none; }
+   color: #000;
+   text-transform: none; }
 #slide0 h3 {margin-top: 0.3em; font-size: 1.2em;}
 #slide0 h4 {margin:0; font-size: 0.9em;}
 
