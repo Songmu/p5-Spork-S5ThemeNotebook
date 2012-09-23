@@ -1,6 +1,6 @@
 use inc::Module::Install;
-name 'Spork-S5ThemeRedSimple';
-all_from 'lib/Spork/S5ThemeRedSimple.pm';
+name 'Spork-S5ThemeNotebook';
+all_from 'lib/Spork/S5ThemeNotebook.pm';
 
 #requires '';
 

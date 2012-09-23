@@ -1,11 +1,11 @@
-This is Perl module Spork::S5ThemeRedSimple.
+This is Perl module Spork::S5ThemeNotebook.
 
 INSTALLATION
 
-Spork::S5ThemeRedSimple installation is straightforward. If your CPAN shell is set up,
+Spork::S5ThemeNotebook installation is straightforward. If your CPAN shell is set up,
 you should just be able to do
 
-    % cpanm Spork::S5ThemeRedSimple
+    % cpanm Spork::S5ThemeNotebook
 
 Download it, unpack it, then build it as per the usual:
 
@@ -18,9 +18,9 @@ Then install it:
 
 DOCUMENTATION
 
-Spork::S5ThemeRedSimple documentation is available as in POD. So you can do:
+Spork::S5ThemeNotebook documentation is available as in POD. So you can do:
 
-    % perldoc Spork::S5ThemeRedSimple
+    % perldoc Spork::S5ThemeNotebook
 
 to read the documentation online with your favorite pager.
 

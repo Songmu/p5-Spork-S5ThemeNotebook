@@ -1,4 +1,4 @@
-package Spork::S5ThemeRedSimple;
+package Spork::S5ThemeNotebook;
 use Spork::S5Theme -Base;
 our $VERSION = '0.01';
 
@@ -6,7 +6,7 @@ __DATA__
 
 =head1 NAME
 
-  Spork::S5ThemeRedSimple - A Simplistic Red Color Theme
+  Spork::S5ThemeNotebook - A Simplistic Red Color Theme
 
 =head1 COPYRIGHT
 
