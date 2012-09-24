@@ -23,11 +23,11 @@ __DATA__
 
 =head1 NAME
 
-  Spork::S5ThemeNotebook - A Simplistic Red Color Theme
+  Spork::S5ThemeNotebook - A Simplistic Theme
 
 =head1 COPYRIGHT
 
-Copyright 2004 by Kang-min Liu <gugod@gugod.org>.
+Copyright 2012 by Masayuki Matsuki <matsuki@cpan.org>.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
